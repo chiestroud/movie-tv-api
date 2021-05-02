@@ -10,7 +10,7 @@ export default function Routes() {
         <Route exact path='/' component={AddShow} />
         <Route
           path='/other-api' component={OtherApi}/>
-        </Switch>
+      </Switch>
     </div>
   );
 }

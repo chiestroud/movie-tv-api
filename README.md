@@ -15,3 +15,7 @@ This website has links to my other api experiment. Please check the pages also.
 
 ### Technologies
 HTML / CSS / JavaScript / React
+
+### Link to Loom Video
+
+https://www.loom.com/share/e7c492c05a084453a02a1bd2b633ec65
