@@ -22,10 +22,10 @@ export default function AddShow() {
             value={query}
             onChange={onChange}
           />
-          {results.length && (
+          {results.length > 0 && (
             <ul className='results'>
               {results.map((show) => (
-                <li key={show.id}>
+                <li className='list' key={show.id}>
                   <ResultsCard show={show} />
                 </li>
               ))}

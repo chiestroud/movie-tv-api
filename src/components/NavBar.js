@@ -21,10 +21,7 @@ const NavBar = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link className="nav-link" to="/watched">Watched</Link>
-            </NavItem>
-            <NavItem>
-              <Link className="nav-link" to="/add-show">Add Show</Link>
+              <Link className="nav-link" to="/other-api">Other Fun API</Link>
             </NavItem>
           </Nav>
         </Collapse>

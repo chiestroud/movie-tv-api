@@ -4,3 +4,43 @@
 body {
   background-color: $favColor;
 }
+
+.results {
+  list-style: none;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  width: 33%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.api-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+}
+
+h1 {
+  text-align: center;
+}
+
+.link-container {
+  text-align: center;
+}
+
+article {
+  margin: 2%;
+}
